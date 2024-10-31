@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customBackground: '#111210', // Cambia el valor hexadecimal a tu color personalizado
+        customColorBorder: '#263238'
+      },
+    },
   },
   plugins: [],
 };

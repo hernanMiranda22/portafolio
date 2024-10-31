@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App flex flex-col min-h-screen">
+    <div className="App flex flex-col min-h-screen bg-customBackground">
      
       <Navigation />
       <main className="flex flex-col md:flex-row flex-1">
