@@ -1,7 +1,7 @@
 // PortfolioPresentation.js
 import React from 'react';
 import FotoPefil from '../fotoperfil.png'
-import { FaEnvelope, FaLinkedin, FaGithub, FaTwitter, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaRegFileAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 function PortfolioPresentation() {
   return (
@@ -43,14 +43,14 @@ function PortfolioPresentation() {
           </a>
           
           {/* Redes Sociales */}
+          <a href="https://twitter.com" className="text-white items-center bg-green-950 hover:bg-green-800 rounded-md p-3">
+            <FaRegFileAlt />
+          </a>
           <a href="www.linkedin.com/in/hernán-miranda" className="text-white items-center bg-green-950 hover:bg-green-800 rounded-md p-3">
             <FaLinkedin />
           </a>
           <a href="https://github.com/hernanMiranda22" className="text-white items-center bg-green-950 hover:bg-green-800 rounded-md p-3">
             <FaGithub />
-          </a>
-          <a href="https://twitter.com" className="text-white items-center bg-green-950 hover:bg-green-800 rounded-md p-3">
-            <FaTwitter />
           </a>
         </div>
       </div>

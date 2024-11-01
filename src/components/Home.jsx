@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import AboutMe from './AboutMe';
+import Technology from './Tehcnology';
 
 
 function MainContent() {
@@ -14,9 +15,13 @@ function MainContent() {
         <div className="p-4">
           <AboutMe/>
         </div>
-      </div>
 
-      
+        <hr className="border-t border-gray-700 my-6" />
+
+        <div className="p-4">
+          <Technology/>
+        </div>
+      </div>
     </section>
   );
 }
