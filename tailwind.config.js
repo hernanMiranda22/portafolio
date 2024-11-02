@@ -9,7 +9,11 @@ module.exports = {
         customBackground: '#111210', // Cambia el valor hexadecimal a tu color personalizado
         customColorBorder: '#263238'
       },
+      maxWidth: {
+        'customWidth': '900px', // Aquí defines el valor personalizado
+      },
     },
+    
   },
   plugins: [],
 };

@@ -1,6 +1,6 @@
 // Header.js
 
-import React from 'react';
+import React from 'react'
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <h1 className="text-2xl font-bold">Mi Aplicación</h1>
       <p>Bienvenido a nuestra plataforma</p>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
