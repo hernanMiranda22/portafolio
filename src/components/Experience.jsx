@@ -10,7 +10,7 @@ function Experience() {
         {/* div de empresas */}
         <div className="flex justify-between items-start gap-4">
           <div className="flex flex-row items-start justify-start gap-4 flex-grow">
-            <div className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl">
+            <div className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl aspect-square">
               <FaAndroid />
             </div>
 
