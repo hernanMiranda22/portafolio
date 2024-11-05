@@ -4,6 +4,7 @@ import AboutMe from './AboutMe';
 import Technology from './Tehcnology';
 import Experience from './Experience';
 import Projects from './Projects';
+import Study from './Study';
 
 
 function MainContent() {
@@ -16,6 +17,7 @@ function MainContent() {
         <Technology />
         <Experience />
         <Projects />
+        <Study/>
       </div>
     </section>
   )

@@ -3,13 +3,12 @@ import Proyecto1 from '../proyecto1.png'
 import Proyecto2 from '../proyecto2.png'
 import {
   FaFileSignature,
-  FaAndroid,
-  FaJava,
   FaSyringe,
   FaGithub,
 } from 'react-icons/fa'
 import { SiKotlin, SiJetpackcompose, SiFirebase } from 'react-icons/si'
 import { AiFillApi } from 'react-icons/ai'
+import { TbApi } from 'react-icons/tb'
 
 function Projects() {
   return (
@@ -89,9 +88,15 @@ function Projects() {
                   </span>
                   <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
                     <div className="box-border">
-                      <AiFillApi />
+                      <TbApi />
                     </div>
                     RickAndMortyAPI
+                  </span>
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                    <div className="box-border">
+                      <AiFillApi />
+                    </div>
+                    Retrofit2
                   </span>
                   <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
                     <div className="box-border">

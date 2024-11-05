@@ -8,6 +8,7 @@ import {
   FaRegFileAlt,
   FaMapMarkerAlt,
 } from 'react-icons/fa'
+import DownloadCV from '../assets/Cv-Hernan-Miranda.pdf'
 
 function PortfolioPresentation() {
   return (
@@ -53,8 +54,9 @@ function PortfolioPresentation() {
           {/* Redes Sociales */}
           <div className="flex gap-2">
             <a
-              href=""
+              href={DownloadCV}
               className="text-white bg-green-950 hover:bg-green-800 rounded-md p-2 sm:p-3 text-sm md:text-base"
+              download
             >
               <FaRegFileAlt />
             </a>
