@@ -4,25 +4,27 @@ import { FaAndroid } from 'react-icons/fa'
 function Experience() {
   return (
     <div className="flex-col w-full flex items-start justify-start gap-4 text-white ">
-      {/* div general */}
       <h2 className="font-bold text-2xl">Experiencia</h2>
-      <div className="flex w-full justify-between items-start gap-4">
-        {/* div de empresas */}
-        <div className="flex justify-between items-start gap-4">
-          <div className="flex flex-row items-start justify-start gap-4 flex-grow">
-            <div className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl aspect-square">
-              <FaAndroid />
-            </div>
+      <div className="flex flex-col w-full justify-start gap-8 items-start">
+        <div className="md:min-w-[30em] flex-row flex w-full justify-start gap-8">
+          <div className="flex w-full flex-col md:flex-row justify-start gap-4">
+            <div className="flex-row flex w-full justify-start gap-4 items-start">
+              <div className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl aspect-square">
+                <FaAndroid />
+              </div>
 
-            <div className="box-border justify-start w-full flex flex-col items-start gap-2">
-              <strong className="text-base">Calipso</strong>
-              <p>Desarrollador Android, pasantía</p>
-              <p>Desarrollo de una aplicación con Android Studio y Java</p>
+              <div className="box-border justify-start w-full flex flex-col items-start gap-2">
+                <strong className="text-base">Calipso</strong>
+                <p>Desarrollador Android, pasantía</p>
+                <p className="text-left">Desarrollo de una aplicación con Android Studio y Java</p>
+              </div>
+            </div>
+            <div className="flex flex-col justify-start items-start md:items-end gap-2">
+              <span className="bg-green-800 inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-3xl">
+                2021
+              </span>
             </div>
           </div>
-        </div>
-        <div className="items-end bg-green-700 rounded-xl p-1 text-xs">
-          <span>2021</span>
         </div>
       </div>
     </div>

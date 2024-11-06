@@ -3,7 +3,7 @@ import React from 'react'
 function Navigation() {
   return (
     <nav className="bg-[#0F0F0F] p-2">
-      <ul className="flex justify-center md:justify-start gap-4">
+      <ul className="flex justify-center md:justify-center gap-4">
         <li>
           <a href="#home" className="text-gray-400 hover:text-white">
             Inicio
