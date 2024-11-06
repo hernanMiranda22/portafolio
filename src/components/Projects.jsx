@@ -1,10 +1,11 @@
 import React from 'react'
-import Proyecto1 from '../proyecto1.png'
+import Proyecto1 from '../assets/proyecto1.png'
 import Proyecto2 from '../proyecto2.png'
 import { FaFileSignature, FaSyringe, FaGithub } from 'react-icons/fa'
 import { SiKotlin, SiJetpackcompose, SiFirebase } from 'react-icons/si'
 import { AiFillApi } from 'react-icons/ai'
 import { TbApi } from 'react-icons/tb'
+import iconRick from '../assets/icons8-rick-sanchez.svg'
 
 function Projects() {
   return (
@@ -68,7 +69,9 @@ function Projects() {
         <div className="md:min-w-[30em] flex-row flex w-full justify-start gap-4">
           <div className="flex w-full flex-col md:flex-row justify-start gap-4">
             <div className="flex-row flex w-full justify-start gap-4 items-start">
-              <span className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl aspect-square"></span>
+              <span className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl aspect-square text-white">
+                <img src={iconRick} alt="gdfgdf" className="w-8 h-8" />
+              </span>
               <div className="flex-col flex justify-start items-start w-full gap-2">
                 <strong className="text-2x1">Rick And Morty App</strong>
                 <p>Proyecto personal</p>
@@ -82,6 +85,14 @@ function Projects() {
                     </div>
                     Kotlin
                   </span>
+
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                    <div className="box-border">
+                      <SiJetpackcompose />
+                    </div>
+                    Jectpack Compose
+                  </span>
+
                   <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
                     <div className="box-border">
                       <TbApi />

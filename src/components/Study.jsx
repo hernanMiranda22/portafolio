@@ -42,11 +42,11 @@ function Study() {
                 Escuela de Educación Técnica N°1
               </strong>
               <p className="text-left">
-                Colegio secundario. Titulo de Tecnico en Programación
+                Colegio secundario. Titulo de Ténico en Programación
               </p>
               <p className="text-left">
                 Aprendí las bases de la programación y a implentar el
-                pensamiento logico.
+                pensamiento lógico.
               </p>
             </div>
           </div>

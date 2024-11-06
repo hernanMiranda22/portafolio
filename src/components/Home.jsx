@@ -17,7 +17,8 @@ function MainContent() {
         <Technology />
         <Experience />
         <Projects />
-        <Study/>
+        <Study />
+        <hr className="border-t border-gray-700 my-6 w-full" />
       </div>
     </section>
   )
