@@ -31,7 +31,7 @@ function Footer() {
             <TbFileCv />
           </a>
           <a
-            href="www.linkedin.com/in/hernán-miranda"
+            href="https://www.linkedin.com/in/hern%C3%A1n-miranda/"
             target="_blank"
             className="text-white bg-green-950 hover:bg-green-800 w-12 h-12 sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square"
           >
