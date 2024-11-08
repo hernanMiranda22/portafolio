@@ -13,32 +13,32 @@ function Projects() {
       <h2 className="font-bold text-2xl m-0">Proyectos</h2>
       <div className="flex flex-col w-full justify-start gap-8 items-start">
         <div className="md:min-w-[30em] flex-row flex w-full justify-start gap-8">
-          <div className="flex w-full flex-col md:flex-row justify-start gap-4">
+          <div className="flex w-full flex-col lg:flex-row justify-start gap-4">
             <div className="flex-row flex w-full justify-start gap-4 items-start">
               <span className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl aspect-square">
                 <FaFileSignature />
               </span>
               <div className="flex-col flex justify-start items-start w-full gap-2">
-                <strong className="text-2x1">Student Register</strong>
-                <p>Proyecto personal</p>
-                <p className="m-0 leading-5 tracking-normal text-left">
+                <strong className="text-[24px] lg:text-[20px]">Student Register</strong>
+                <p className="text-[20px] lg:text-[18px]">Proyecto personal</p>
+                <p className="m-0 leading-5 tracking-normal text-left text-[20px] lg:text-[18px]">
                   Aplicacion para la gestion de los datos y notas de Alumnos de
                   un colegio
                 </p>
-                <div className="flex-col md:flex-wrap md:flex-row flex justify-start gap-2">
-                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                <div className="flex-col lg:flex-wrap lg:flex-row flex justify-start gap-2">
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">
                     <div className="box-border">
                       <SiKotlin />
                     </div>
                     Kotlin
                   </span>
-                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">
                     <div className="box-border">
                       <SiFirebase />
                     </div>
                     Firebase
                   </span>
-                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">
                     <div className="box-border">
                       <FaSyringe />
                     </div>
@@ -62,50 +62,52 @@ function Projects() {
             <img
               src={Proyecto1}
               alt=""
-              className="w-[300px] rounded-2xl object-cover md:h-[300px] md:w-auto md:rounded-2xl md:max-w-full md:object-cover"
+              className="w-[300px] rounded-2xl object-cover lg:h-[300px] lg:w-auto lg:rounded-2xl lg:max-w-full lg:object-cover"
             />
           </div>
         </div>
         <div className="md:min-w-[30em] flex-row flex w-full justify-start gap-4">
-          <div className="flex w-full flex-col md:flex-row justify-start gap-4">
+          <div className="flex w-full flex-col lg:flex-row justify-start gap-4">
             <div className="flex-row flex w-full justify-start gap-4 items-start">
               <span className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl aspect-square text-white">
                 <img src={iconRick} alt="gdfgdf" className="w-8 h-8" />
               </span>
               <div className="flex-col flex justify-start items-start w-full gap-2">
-                <strong className="text-2x1">Rick And Morty App</strong>
-                <p>Proyecto personal</p>
-                <p className="m-0 leading-5 tracking-normal text-left">
+                <strong className="text-[24px] lg:text-[20px]">
+                  Rick And Morty App
+                </strong>
+                <p className="text-[20px] lg:text-[18px]">Proyecto personal</p>
+                <p className="m-0 leading-5 tracking-normal text-left text-[20px] lg:text-[18px]">
                   Muestra a todos los personajes y detalles de Rick y Morty
                 </p>
-                <div className="flex-col md:flex-wrap md:flex-row flex justify-start gap-2">
-                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                <div className="flex-col lg:flex-wrap lg:flex-row flex justify-start gap-2">
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">
                     <div className="box-border">
                       <SiKotlin />
                     </div>
                     Kotlin
                   </span>
 
-                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">
                     <div className="box-border">
                       <SiJetpackcompose />
                     </div>
                     Jectpack Compose
                   </span>
 
-                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">
                     <div className="box-border">
                       <TbApi />
                     </div>
                     RickAndMortyAPI
                   </span>
-                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">
                     <div className="box-border">
                       <AiFillApi />
                     </div>
                     Retrofit2
                   </span>
-                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700">
+                  <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">
                     <div className="box-border">
                       <FaSyringe />
                     </div>
@@ -129,7 +131,7 @@ function Projects() {
             <img
               src={Proyecto2}
               alt=""
-              className="w-[300px] rounded-2xl object-cover md:h-[300px] md:w-auto md:rounded-2xl md:max-w-full md:object-cover"
+              className="w-[300px] rounded-2xl object-cover lg:h-[300px] lg:w-auto lg:rounded-2xl lg:max-w-full lg:object-cover"
             />
           </div>
         </div>

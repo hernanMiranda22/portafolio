@@ -7,20 +7,24 @@ function Experience() {
       <h2 className="font-bold text-2xl">Experiencia</h2>
       <div className="flex flex-col w-full justify-start gap-8 items-start">
         <div className="md:min-w-[30em] flex-row flex w-full justify-start gap-8">
-          <div className="flex w-full flex-col md:flex-row justify-start gap-4">
+          <div className="flex w-full flex-col lg:flex-row justify-start gap-4">
             <div className="flex-row flex w-full justify-start gap-4 items-start">
               <div className="bg-green-800 w-12 h-12 rounded-full flex items-center justify-center text-2xl aspect-square">
                 <FaAndroid />
               </div>
 
               <div className="box-border justify-start w-full flex flex-col items-start gap-2">
-                <strong className="text-base">Calipso</strong>
-                <p>Desarrollador Android, pasantía</p>
-                <p className="text-left">Desarrollo de una aplicación con Android Studio y Java</p>
+                <strong className="text-[24px] lg:text-[20px]">Calipso</strong>
+                <p className="text-[20px] lg:text-[18px]">
+                  Desarrollador Android, pasantía
+                </p>
+                <p className="text-left text-[20px] lg:text-[18px]">
+                  Desarrollo de una aplicación con Android Studio y Java
+                </p>
               </div>
             </div>
-            <div className="flex flex-col justify-start items-start md:items-end gap-2">
-              <span className="bg-green-800 inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-3xl">
+            <div className="flex flex-col justify-start items-start lg:items-end gap-2">
+              <span className="bg-green-800 inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-3xl text-[20px] lg:text-[18px]">
                 2021
               </span>
             </div>

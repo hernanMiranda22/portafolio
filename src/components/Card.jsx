@@ -12,7 +12,7 @@ import DownloadCV from '../assets/Cv-Hernan-Miranda.pdf'
 
 function PortfolioPresentation() {
   return (
-    <div className="flex flex-col md:flex-row items-center md:items-start p-4 md:p-8 gap-4">
+    <div className="flex flex-col lg:flex-row items-center sm:items-start p-2 lg:p-8 gap-4">
       {/* Imagen Circular */}
       <div className="flex-shrink-0 w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-customColorBorder overflow-hidden">
         <img
@@ -45,7 +45,8 @@ function PortfolioPresentation() {
           {/* Dirección de correo */}
           <a
             href="mailto:mirandahernan2002@gmail.com"
-            className="flex items-center gap-2 text-white bg-green-950 hover:bg-green-800 rounded-md p-2 text-xl md:text-base"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-white bg-green-950 hover:bg-green-800 rounded-md p-2 text-[16px] sm:text-xl"
           >
             <FaEnvelope />
             <span>mirandahernan2002@gmail.com</span>
@@ -63,6 +64,7 @@ function PortfolioPresentation() {
             <a
               href="https://www.linkedin.com/in/hern%C3%A1n-miranda/"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-white bg-green-950 hover:bg-green-800 w-12 h-12 sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square"
             >
               <FaLinkedin />
@@ -70,6 +72,7 @@ function PortfolioPresentation() {
             <a
               href="https://github.com/hernanMiranda22"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-white bg-green-950 hover:bg-green-800 w-12 h-12 sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square"
             >
               <FaGithub />

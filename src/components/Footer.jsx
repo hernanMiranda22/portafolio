@@ -15,7 +15,8 @@ function Footer() {
         <a
           href="mailto:mirandahernan2002@gmail.com"
           target="_blank"
-          className="flex items-center gap-2 text-white bg-green-950 hover:bg-green-800 rounded-md p-2 text-xl md:text-base"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-white bg-green-950 hover:bg-green-800 rounded-md p-2 text-[24px] lg:text-[18px] h-[52px] lg:h-[48px]"
         >
           <FaEnvelope />
           <span>mirandahernan2002@gmail.com</span>
@@ -25,7 +26,7 @@ function Footer() {
         <div className="flex gap-2">
           <a
             href={DownloadCV}
-            className="text-white bg-green-950 hover:bg-green-800 w-12 h-12 sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square"
+            className="text-white bg-green-950 hover:bg-green-800 w-[52px] h-[52px] sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square lg:w-12 lg:h-12"
             download
           >
             <TbFileCv />
@@ -33,14 +34,16 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/hern%C3%A1n-miranda/"
             target="_blank"
-            className="text-white bg-green-950 hover:bg-green-800 w-12 h-12 sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square"
+            rel="noopener noreferrer"
+            className="text-white bg-green-950 hover:bg-green-800 w-[52px] h-[52px]sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square lg:w-12 lg:h-12"
           >
             <FaLinkedin />
           </a>
           <a
             href="https://github.com/hernanMiranda22"
             target="_blank"
-            className="text-white bg-green-950 hover:bg-green-800 w-12 h-12 sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square"
+            rel="noopener noreferrer"
+            className="text-white bg-green-950 hover:bg-green-800 w-[52px] h-[52px] sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square lg:w-12 lg:h-12"
           >
             <FaGithub />
           </a>
