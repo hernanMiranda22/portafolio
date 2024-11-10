@@ -16,7 +16,7 @@ function Footer() {
           href="mailto:mirandahernan2002@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-white bg-green-950 hover:bg-green-800 rounded-md p-2 text-[24px] lg:text-[18px] h-[52px] lg:h-[48px]"
+          className="flex items-center gap-2 text-white bg-green-950 hover:bg-green-800 rounded-md p-2 text-[20px] sm:text-[24px] lg:text-[18px] h-[52px] lg:h-[48px]"
         >
           <FaEnvelope />
           <span>mirandahernan2002@gmail.com</span>
