@@ -1,6 +1,6 @@
 // PortfolioPresentation.js
 import React from 'react'
-import FotoPefil from '../fotoperfil.png'
+import FotoPefil from '../assets/foto-de-perfil.png'
 import {
   FaEnvelope,
   FaLinkedin,
@@ -8,7 +8,7 @@ import {
   FaMapMarkerAlt,
 } from 'react-icons/fa'
 import { TbFileCv } from 'react-icons/tb'
-import DownloadCV from '../assets/Cv-Hernan-Miranda.pdf'
+import DownloadCV from '../assets/Cv-Hernan-Miranda-Android-Developer.pdf'
 
 function PortfolioPresentation() {
   return (
@@ -62,7 +62,7 @@ function PortfolioPresentation() {
               <TbFileCv />
             </a>
             <a
-              href="https://www.linkedin.com/in/hern%C3%A1n-miranda/"
+              href="https://www.linkedin.com/in/hern%C3%A1n-miranda-557711342/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white bg-green-950 hover:bg-green-800 w-12 h-12 sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square"

@@ -5,7 +5,7 @@ import {
   FaGithub,
 } from 'react-icons/fa'
 import { TbFileCv } from 'react-icons/tb'
-import DownloadCV from '../assets/Cv-Hernan-Miranda.pdf'
+import DownloadCV from '../assets/Cv-Hernan-Miranda-Android-Developer.pdf'
 
 function Footer() {
   return (
@@ -32,7 +32,7 @@ function Footer() {
             <TbFileCv />
           </a>
           <a
-            href="https://www.linkedin.com/in/hern%C3%A1n-miranda/"
+            href="https://www.linkedin.com/in/hern%C3%A1n-miranda-557711342/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white bg-green-950 hover:bg-green-800 w-[52px] h-[52px]sm:p-3 rounded-md flex items-center justify-center text-2xl aspect-square lg:w-12 lg:h-12"
