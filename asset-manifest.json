@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.fe6ad085.css",
-    "main.js": "/portafolio/static/js/main.a8cfd36d.js",
+    "main.css": "/portafolio/static/css/main.5fe5861f.css",
+    "main.js": "/portafolio/static/js/main.6b301c50.js",
     "static/js/453.1407b060.chunk.js": "/portafolio/static/js/453.1407b060.chunk.js",
     "static/media/foto-de-perfil.png": "/portafolio/static/media/foto-de-perfil.775ef76eb468f7af941d.png",
     "static/media/proyecto2.png": "/portafolio/static/media/proyecto2.41c4dd70d0ecf2b65baa.png",
@@ -9,12 +9,12 @@
     "static/media/proyecto1.png": "/portafolio/static/media/proyecto1.8d2c9a62e59d675e903b.png",
     "static/media/icons8-rick-sanchez.svg": "/portafolio/static/media/icons8-rick-sanchez.482fd6c8851eea5ff4102ebdb3ea620f.svg",
     "index.html": "/portafolio/index.html",
-    "main.fe6ad085.css.map": "/portafolio/static/css/main.fe6ad085.css.map",
-    "main.a8cfd36d.js.map": "/portafolio/static/js/main.a8cfd36d.js.map",
+    "main.5fe5861f.css.map": "/portafolio/static/css/main.5fe5861f.css.map",
+    "main.6b301c50.js.map": "/portafolio/static/js/main.6b301c50.js.map",
     "453.1407b060.chunk.js.map": "/portafolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe6ad085.css",
-    "static/js/main.a8cfd36d.js"
+    "static/css/main.5fe5861f.css",
+    "static/js/main.6b301c50.js"
   ]
 }
