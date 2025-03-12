@@ -22,7 +22,7 @@ function Projects() {
                 <strong className="text-[24px] lg:text-[20px]">Student Register</strong>
                 <p className="text-[20px] lg:text-[18px]">Proyecto personal</p>
                 <p className="m-0 leading-5 tracking-normal text-left text-[20px] lg:text-[18px]">
-                  Aplicacion para la gestion de los datos y notas de Alumnos de
+                  Aplicacion para la gestion de datos y calificaciones de Alumnos de
                   un colegio
                 </p>
                 <div className="flex-col lg:flex-wrap lg:flex-row flex justify-start gap-2">
@@ -78,7 +78,7 @@ function Projects() {
                 </strong>
                 <p className="text-[20px] lg:text-[18px]">Proyecto personal</p>
                 <p className="m-0 leading-5 tracking-normal text-left text-[20px] lg:text-[18px]">
-                  Muestra a todos los personajes y detalles de Rick y Morty
+                  Muestra a todos los personajes y datos de la serie Rick y Morty
                 </p>
                 <div className="flex-col lg:flex-wrap lg:flex-row flex justify-start gap-2">
                   <span className="inline-flex items-center box-border flex-shrink-0 whitespace-nowrap selection-none gap-1 p-[4px] rounded-xl bg-gray-700 text-[20px] lg:text-[16px]">

@@ -19,7 +19,7 @@ function Experience() {
                   Desarrollador Android, pasantía
                 </p>
                 <p className="text-left text-[20px] lg:text-[18px]">
-                  Desarrollo de una aplicación con Android Studio y Java
+                  Participe en el desarrollo de una aplicación con Android Studio y Java desde cero hasta su version 1.0
                 </p>
               </div>
             </div>
