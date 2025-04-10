@@ -20,7 +20,7 @@ function Study() {
                 </strong>
                 <p className="text-left text-[20px] lg:text-[18px]">Licenciatura en Sistemas</p>
                 <p className="text-left text-[20px] lg:text-[18px]">
-                  Cursando el primer cuatrimestre de primer año.
+                  Cursando el primer cuatrimestre del primer año.
                 </p>
               </div>
             </div>
