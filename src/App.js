@@ -1,7 +1,7 @@
-import './App.css'
-import Home from './components/Home'
-import Footer from './components/Footer'
-import { Helmet } from 'react-helmet'
+import './App.css';
+import Home from './pages/Home';
+import Footer from './pages/Footer';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (

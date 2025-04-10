@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaAndroid, FaJava } from 'react-icons/fa'
-import { SiKotlin, SiJetpackcompose } from 'react-icons/si'
+import { SiKotlin, SiJetpackcompose, SiFirebase } from 'react-icons/si'
 
 function Technology() {
   return (
@@ -46,6 +46,16 @@ function Technology() {
           </span>
 
           <p>Jetpack Compose</p>
+        </div>
+
+        <div className="flex-wrap flex items-start bg-green-700 rounded-md p-3 gap-2">
+          <span>
+            <div className="text-2xl">
+              <SiFirebase />
+            </div>
+          </span>
+
+          <p>Firebase Service</p>
         </div>
       </div>
     </div>
